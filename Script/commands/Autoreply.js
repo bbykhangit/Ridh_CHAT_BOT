@@ -29,7 +29,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     "bc": "SAME TO YOU😊",
     "pro": "Khud k0o KYa LeGend SmJhTi Hai 😂",
     "good morning": "GOOD MORNING দাত ব্রাশ করে খেয়ে নেও😚",
-    "good night": "Sweet Dream babu… তবে আগে সাহু বস কে GN বলে নিও 😏💤",
+    "good night": "Sweet Dream babu… তবে আগে রিদ বস কে GN বলে নিও 😏💤",
     "tor ball": "~ এখনো বাল উঠে নাই নাকি তোমার?? 🤖",
     "ridh": "উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
     "owner": "‎[𝐎𝐖𝐍𝐄𝐑:☞ Ridh Islam Ayan ☜\nFacebook: https://www.facebook.com/profile.php?id=61591763713247\nWhatsApp: +8801825784274",
