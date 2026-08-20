@@ -31,7 +31,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     "good morning": "GOOD MORNING দাত ব্রাশ করে খেয়ে নেও😚",
     "good night": "Sweet Dream babu… তবে আগে সাহু বস কে GN বলে নিও 😏💤",
     "tor ball": "~ এখনো বাল উঠে নাই নাকি তোমার?? 🤖",
-    "shahadat": "উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
+    "ridh": "উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
     "owner": "‎[𝐎𝐖𝐍𝐄𝐑:☞ Ridh Islam Ayan ☜\nFacebook: https://www.facebook.com/profile.php?id=61591763713247\nWhatsApp: +8801825784274",
     "admin": "He is Ridh Islam ayan  তাকে সবাই Admin Ridh হিসেবে চিনে😘☺️",
     "babi": "এ তো হাছিনা হে মেরে দিলকি দারকান হে মেরি জান হে😍.",
