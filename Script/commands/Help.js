@@ -32,7 +32,7 @@ module.exports.languages = {
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: %8
 ┃ 🤖 Bot Name: %9
-┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
+┃ 👑 Owner: 𝗥丨𝗶𝗱𝗵 𝗜𝘀𝗹𝗮𝗺 𝗔𝘆𝗮𝗻
 ╰━━━━━━━━━━━━━━━━╯`,
         "helpList": "[ There are %1 commands. Use: \"%2help commandName\" to view more. ]",
         "user": "User",
@@ -43,10 +43,10 @@ module.exports.languages = {
 
 // 🔹 এখানে আপনার ফটো Imgur লিংক করে বসাবেন ✅
 const helpImages = [
-    "https://i.imgur.com/gokzyKd.jpeg",
-    "https://i.imgur.com/g3hlQ0Z.jpeg",
-    "https://i.imgur.com/L7txp4M.jpeg",
-    "https://i.imgur.com/5dG8PS5.jpeg"
+    "https://i.postimg.cc/3RghXCnX/IMG-20260601-150213.jpg",
+    "https://i.postimg.cc/nrzmjzGB/ccb5cbf3248477f0a9f86b410307caea.jpg",
+    "https://i.postimg.cc/Dzn84025/Screenshot-2026-07-19-01-50-45-96-99c04817c0de5652397fc8b56c3b3817.jpg",
+    "https://i.postimg.cc/Bncv33x4/06d5711567ef90ee6c6125783c5f99ac-0.jpg"
 ];
 
 
@@ -80,7 +80,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
         command.config.commandCategory || "Unknown",  
         command.config.cooldowns || 0,  
         prefix,  
-        global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+        global.config.BOTNAME || "𝗖𝗶𝗻𝗻𝗮𝗺𝗼𝗻 𝗩||𝗲𝗻𝗼𝗺"  
     );  
 
     downloadImages(files => {  
@@ -110,7 +110,7 @@ module.exports.run = function ({ api, event, args, getText }) {
             command.config.commandCategory || "Unknown",  
             command.config.cooldowns || 0,  
             prefix,  
-            global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+            global.config.BOTNAME || "𝗥丨𝗶𝗱𝗵 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
         );  
 
         downloadImages(files => {  
@@ -143,8 +143,8 @@ module.exports.run = function ({ api, event, args, getText }) {
 ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
-┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
-┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
+┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝗥丨𝗶𝗱𝗵 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
+┃ 👑 Owner: 𝗥丨𝗶𝗱𝗵 𝗜𝘀𝗹𝗮𝗺 𝗔𝘆𝗮𝗻
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  
