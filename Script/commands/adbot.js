@@ -54,14 +54,14 @@ module.exports.run = async ({ api, event, args }) => {
     if (args[0] == "admin") {
         let callback = () => api.sendMessage(
             {
-                body: `———»ADMIN BOT«———\n❯ Name: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔\n❯ Facebook: https://facebook.com/100044713412032\n❯ Thanks for using ${global.config.BOTNAME} bot`,
+                body: `———»ADMIN BOT«———\n❯ Name: 𝗥丨𝗶𝗱𝗵 𝗜𝘀𝗹𝗮𝗺 𝗔𝘆𝗮𝗻\n❯ Facebook: https://www.facebook.com/profile.php?id=61591763713247\n❯ Thanks for using ${global.config.BOTNAME} bot`,
                 attachment: fs.createReadStream(__dirname + "/cache/1.png")
             },
             event.threadID,
             () => fs.unlinkSync(__dirname + "/cache/1.png")
         );
 
-        return request(encodeURI(`https://graph.facebook.com/100044713412032/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`))
+        return request(encodeURI(`https://graph.facebook.com/61591763713247/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`))
             .pipe(fs.createWriteStream(__dirname + '/cache/1.png'))
             .on('close', () => callback());
     }
